@@ -1,0 +1,16 @@
+<view class='container'>
+  <view class='banner'>
+    <image src='/assets/images/youcan.jpg' mode='aspectFill'></image>
+  </view>
+  <view class='section'>
+    <view wx:for='{{info}}' wx:key='{{item.label}}'>
+      <text>{{item.label}}：</text>
+      <text>{{item.value}}</text>
+    </view>
+    <view>
+    </view>
+  </view>
+  <view class='section'>
+    <text> 我叫符芝 身高185 </text>
+  </view>
+</view>
